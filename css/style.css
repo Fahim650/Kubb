@@ -1,0 +1,192 @@
+/* Common Css Starts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/* Common Css Ends */
+
+
+/* Navbar Css Starts */
+
+nav {
+    padding: 20px 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+
+nav .container {
+    display: flex;
+}
+
+nav .container .logo {
+    display: flex;
+    width: 50%;
+}
+
+nav .container .logo img {
+    padding: 0 15px;
+}
+
+nav .container .logo h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav .container .menu-itmes ul {
+    display: flex;
+}
+
+nav .container .menu-itmes ul li {
+    padding: 0 20px;
+}
+
+nav .container .menu-itmes ul li a span {
+    color: #27b1cf;
+}
+
+nav .container .menu-itmes ul li a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Navbar Css Ends */
+
+
+/* Banner Css Starts */
+
+.banner img {
+    z-index: -1;
+    position: relative;
+    width: 100vw;
+}
+
+.banner p {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.banner span {
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    color: #d8d8d9;
+    font-size: 13px;
+}
+
+
+/* Banner Css Ends */
+
+
+/* Gallery Css Starts */
+
+.gallery {
+    margin: 50px 0;
+}
+
+.gallery .container {
+    text-align: center;
+}
+
+.gallery .container p {
+    font-size: 50px;
+    color: #444444;
+}
+
+.gallery .container span {
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 50px;
+}
+
+.gallery .container h4 {
+    font-size: 20px;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gallery .container .gallery-img {
+    display: flex;
+}
+
+.gallery .container .gallery-img .limg {
+    border: 2px solid white;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px 50px 0px 50px;
+}
+
+.gallery .container .gallery-img .limg h3,
+.cimg h3,
+.rimg h3 {
+    padding: 20px 0;
+    font-size: 15px;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gallery .container .gallery-img .limg h4,
+.cimg h4,
+.rimg h4 {
+    font-size: 15px !important;
+    color: #666666 !important;
+    font-weight: lighter !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gallery .container .gallery-img .cimg {
+    border: 2px solid white;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px 50px 0px 0px;
+}
+
+.gallery .container .gallery-img .rimg {
+    border: 2px solid white;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px 50px 0px 0px;
+}
+
+
+/* Gallery Css Ends */
+
+
+/* font-family: 'Roboto', sans-serif; 
+.cimg,
+.rimg */
